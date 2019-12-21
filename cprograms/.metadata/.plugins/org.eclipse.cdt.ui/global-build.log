@@ -1,0 +1,1596 @@
+14:50:17 **** Build of configuration Debug for project 5_1 ****
+make all 
+Building file: ../src/5_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/5_1.d" -MT"src/5_1.o" -o "src/5_1.o" "../src/5_1.c"
+Finished building: ../src/5_1.c
+ 
+Building target: 5_1
+Invoking: GCC C Linker
+gcc  -o "5_1"  ./src/5_1.o   
+Finished building target: 5_1
+ 
+14:51:36 **** Incremental Build of configuration Debug for project 5_1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:52:34 **** Incremental Build of configuration Debug for project 5_1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:54:06 **** Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+14:54:44 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+14:54:55 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+14:55:47 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+14:55:49 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+14:55:52 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:00:10 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:00:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:02:44 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:20: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   printf("\n *ptr=%d", *ptr); //error
+                   ~^   ~~~~
+                   %f
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:02:46 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:03:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:05 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:25:20: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                   ~^           ~~~~
+../src/aaa.c:25:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int *’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                          ~^
+                          %ls
+../src/aaa.c:31:39: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘int *’ [-Wformat=]
+    printf("\n [%d]ptr [%d]ptr\t%d \t[%u]", index,index, index[ptr], &index[ptr]);
+                                      ~^                             ~~~~~~~~~~~
+                                      %ls
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:07:45 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:11:24 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:25:20: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                   ~^           ~~~~
+../src/aaa.c:25:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int *’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                          ~^
+                          %ls
+../src/aaa.c:31:39: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘int *’ [-Wformat=]
+    printf("\n [%d]ptr [%d]ptr\t%d \t[%u]", index,index, index[ptr], &index[ptr]);
+                                      ~^                             ~~~~~~~~~~~
+                                      %ls
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:11:27 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:13:21 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:25:20: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                   ~^           ~~~~
+../src/aaa.c:25:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int *’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                          ~^
+                          %ls
+../src/aaa.c:31:39: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘int *’ [-Wformat=]
+    printf("\n [%d]ptr [%d]ptr\t%d \t[%u]", index,index, index[ptr], &index[ptr]);
+                                      ~^                             ~~~~~~~~~~~
+                                      %ls
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:13:23 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:14:44 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:25:20: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                   ~^           ~~~~
+../src/aaa.c:25:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int *’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                          ~^
+                          %ls
+../src/aaa.c:31:39: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘int *’ [-Wformat=]
+    printf("\n [%d]ptr [%d]ptr\t%d \t[%u]", index,index, index[ptr], &index[ptr]);
+                                      ~^                             ~~~~~~~~~~~
+                                      %ls
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:19:09 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:22:14 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:25:20: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int **’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                   ~^           ~~~~
+../src/aaa.c:25:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int *’ [-Wformat=]
+   printf("\n &ptr=%u ptr=%u ", &ptr, ptr);
+                          ~^
+                          %ls
+../src/aaa.c:31:39: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘int *’ [-Wformat=]
+    printf("\n [%d]ptr [%d]ptr\t%d \t[%u]", index,index, index[ptr], &index[ptr]);
+                                      ~^                             ~~~~~~~~~~~
+                                      %ls
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:22:17 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:23:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:20:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of e1=%d", sizeof(e1));
+                        ~^
+                        %ld
+../src/aaa.c:21:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ptr=%d", sizeof(ptr));
+                         ~^
+                         %ld
+../src/aaa.c:23:18: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘struct emp *’ [-Wformat=]
+  printf("\n &e1=%u &e1+1=%u",&e1,&e1+1  ); // scale factor of pointer is 18
+                 ~^           ~~~
+../src/aaa.c:23:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘struct emp *’ [-Wformat=]
+  printf("\n &e1=%u &e1+1=%u",&e1,&e1+1  ); // scale factor of pointer is 18
+                          ~^      ~~~~~
+../src/aaa.c:24:18: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘struct emp *’ [-Wformat=]
+  printf("\n ptr=%u ptr+1=%u",ptr,ptr+1  );
+                 ~^
+../src/aaa.c:24:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘struct emp *’ [-Wformat=]
+  printf("\n ptr=%u ptr+1=%u",ptr,ptr+1  );
+                          ~^      ~~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:23:07 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:22 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:27 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:49:31 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘AcceptEmpInfo’:
+../src/aaa.c:33:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+  scanf("%s", &e.name);
+         ~^   ~~~~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:49:35 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:39 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+15:51:43 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:23 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:10 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:33:59 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:34:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:35:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:6:5: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ptr= (int *)malloc(sizeof(int)*1);
+     ^
+../src/aaa.c:13:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Wformat=]
+   scanf("%d",ptr);
+          ~^
+          %e
+../src/aaa.c:14:20: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   printf("\n *ptr=%d", *ptr);
+                   ~^   ~~~~
+                   %f
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:35:16 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:40:51 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+In file included from /usr/include/stdlib.h:31:0,
+                 from ../src/aaa.c:2:
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:8:15: error: invalid initializer
+  float *ptr[]=NULL;
+               ^
+../src/aaa.c:9:5: error: assignment to expression with array type
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+  ptr= (int *)malloc(sizeof(int)*n);
+     ^
+../src/aaa.c:9:2: warning: statement with no effect [-Wunused-value]
+  ptr= (int *)malloc(sizeof(int)*n);
+  ^~~
+../src/aaa.c:17:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Wformat=]
+   scanf("%d",ptr[i]);
+          ~^  ~~~~~~
+          %e
+../src/aaa.c:20:20: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   printf("\n *ptr=%d", *ptr[i]);
+                   ~^   ~~~~~~~
+                   %f
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+../src/aaa.c:23:6: error: assignment to expression with array type
+   ptr=NULL;
+      ^
+../src/aaa.c:23:3: warning: statement with no effect [-Wunused-value]
+   ptr=NULL;
+   ^~~
+make: *** [src/aaa.o] Error 1
+16:41:07 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+In file included from /usr/include/stdlib.h:31:0,
+                 from ../src/aaa.c:2:
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:8:13: error: invalid initializer
+  int *ptr[]=NULL;
+             ^
+../src/aaa.c:9:5: error: assignment to expression with array type
+  ptr= (int *)malloc(sizeof(int)*n);
+     ^
+../src/aaa.c:9:2: warning: statement with no effect [-Wunused-value]
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+  ptr= (int *)malloc(sizeof(int)*n);
+  ^~~
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+../src/aaa.c:23:6: error: assignment to expression with array type
+   ptr=NULL;
+      ^
+../src/aaa.c:23:3: warning: statement with no effect [-Wunused-value]
+   ptr=NULL;
+   ^~~
+make: *** [src/aaa.o] Error 1
+16:41:32 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:17:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   scanf("%d",ptr[i]);
+          ~^  ~~~~~~
+../src/aaa.c:20:24: error: invalid type argument of unary ‘*’ (have ‘int’)
+   printf("\n *ptr=%d", *ptr[i]);
+                        ^~~~~~~
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+make: *** [src/aaa.o] Error 1
+16:42:13 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:17:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   scanf("%d",ptr[i]);
+          ~^  ~~~~~~
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:42:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:43:23 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:43:27 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:31 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+16:44:35 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+16:51:33 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:15: error: ‘ptr’ undeclared (first use in this function); did you mean ‘puts’?
+   scanf("%d",(ptr+i));
+               ^~~
+               puts
+../src/aaa.c:19:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/aaa.c:21:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:24:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+../src/aaa.c:12:12: warning: unused variable ‘s1’ [-Wunused-variable]
+  struct ab s1[SIZE];
+            ^~
+../src/aaa.c: At top level:
+../src/aaa.c:29:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:30:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+17:19:20 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:18:23: error: expected identifier before ‘&’ token
+   scanf("%d%s",&s1[i].&x,s1[i].y);
+                       ^
+../src/aaa.c:21:28: error: expected expression before ‘)’ token
+   printf("\n s1[%d]=%d",i, );
+                            ^
+../src/aaa.c:20:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:23:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+../src/aaa.c:23:8: error: ‘ptr’ undeclared (first use in this function); did you mean ‘puts’?
+   free(ptr);
+        ^~~
+        puts
+../src/aaa.c:23:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/aaa.c:12:12: warning: variable ‘s1’ set but not used [-Wunused-but-set-variable]
+  struct ab s1[SIZE];
+            ^~
+../src/aaa.c: At top level:
+../src/aaa.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:29:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+17:20:14 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:18:23: error: expected identifier before ‘&’ token
+   scanf("%d%c",&s1[i].&x,s1[i].y);
+                       ^
+../src/aaa.c:21:28: error: expected expression before ‘)’ token
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+   printf("\n s1[%d]=%d",i, );
+                            ^
+../src/aaa.c:20:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=0;i<n;i++)
+         ^~~
+../src/aaa.c:23:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   free(ptr);
+   ^~~~
+../src/aaa.c:23:8: error: ‘ptr’ undeclared (first use in this function); did you mean ‘puts’?
+   free(ptr);
+        ^~~
+        puts
+../src/aaa.c:23:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/aaa.c:12:12: warning: variable ‘s1’ set but not used [-Wunused-but-set-variable]
+  struct ab s1[SIZE];
+            ^~
+../src/aaa.c: At top level:
+../src/aaa.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:29:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+17:26:01 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:24:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+         printf("\n s1[%d]=%d",i,s1[i].y);
+                           ~^    ~~
+                           %s
+../src/aaa.c:26:8: error: ‘ptr’ undeclared (first use in this function); did you mean ‘puts’?
+   free(ptr);
+        ^~~
+        puts
+../src/aaa.c:26:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/aaa.c: At top level:
+../src/aaa.c:31:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:32:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+17:26:49 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:24:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+         printf("\n s1[%d]=%d",i,s1[i].y);
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+                           ~^    ~~
+                           %s
+../src/aaa.c:26:8: error: ‘ptr’ undeclared (first use in this function); did you mean ‘puts’?
+   free(ptr[i]);
+        ^~~
+        puts
+../src/aaa.c:26:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/aaa.c: At top level:
+../src/aaa.c:32:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:33:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+17:29:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c: At top level:
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+../src/aaa.c:31:2: error: expected identifier or ‘(’ before ‘return’
+  return 0;
+  ^~~~~~
+../src/aaa.c:32:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/aaa.o] Error 1
+17:29:43 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:15:9: warning: ‘n’ is used uninitialized in this function [-Wuninitialized]
+         for(i=0;i<n;i++)
+         ^~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+17:29:48 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+17:31:55 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:21:9: warning: ‘n’ is used uninitialized in this function [-Wuninitialized]
+         for(i=0;i<n;i++)
+         ^~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+17:31:59 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+17:33:22 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:19:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:13:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n,i;
+      ^
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+17:33:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:10 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:21:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&s1[i].y);
+          ~^  ~~~~~~~~
+../src/aaa.c:13:6: warning: unused variable ‘n’ [-Wunused-variable]
+  int n,i;
+      ^
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+17:35:15 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:01:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:15:45: error: ‘n’ undeclared (first use in this function)
+   ptr= (struct ab*)malloc(sizeof(struct ab)*n);
+                                             ^
+../src/aaa.c:15:45: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:30:29: error: ‘prt’ undeclared (first use in this function)
+   printf("\n s1[%d] = %d",i,prt[i].x);
+                             ^~~
+make: *** [src/aaa.o] Error 1
+18:03:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:30:29: error: ‘prt’ undeclared (first use in this function)
+   printf("\n s1[%d] = %d",i,prt[i].x);
+                             ^~~
+../src/aaa.c:30:29: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+make: *** [src/aaa.o] Error 1
+18:04:02 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:30:30: error: ‘prt’ undeclared (first use in this function)
+   printf("\n s1[%d] = %d",i,*prt[i].x);
+                              ^~~
+../src/aaa.c:30:30: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+../src/aaa.c:31:30: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+         printf("\n s1[%d] = %s",i,*ptr[i].y);
+                             ~^    ~~~~~~~~~
+                             %d
+make: *** [src/aaa.o] Error 1
+18:06:34 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:30:30: error: ‘prt’ undeclared (first use in this function)
+   printf("\n s1[%d] = %d",i,*prt[i].x);
+                              ^~~
+../src/aaa.c:30:30: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+../src/aaa.c:31:30: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+         printf("\n s1[%d] = %s",i,*ptr[i].y);
+                             ~^    ~~~~~~~~~
+                             %d
+make: *** [src/aaa.o] Error 1
+18:11:05 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:30:29: error: ‘prt’ undeclared (first use in this function)
+   printf("\n s1[%d] = %d",i,prt[i].x);
+                             ^~~
+../src/aaa.c:30:29: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+make: *** [src/aaa.o] Error 1
+18:11:42 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:11:54 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:17:21 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:34:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+         printf(" %s",i,ptr[i].y);
+                  ~^
+                  %d
+../src/aaa.c:34:16: warning: too many arguments for format [-Wformat-extra-args]
+         printf(" %s",i,ptr[i].y);
+                ^~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:17:24 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:19 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:34:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+         printf(" %s",i,ptr[i].y);
+                  ~^
+                  %d
+../src/aaa.c:34:16: warning: too many arguments for format [-Wformat-extra-args]
+         printf(" %s",i,ptr[i].y);
+                ^~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:20:22 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:22:00 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:34:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+         printf(" %s",i,ptr[i].y);
+                  ~^
+                  %d
+../src/aaa.c:34:16: warning: too many arguments for format [-Wformat-extra-args]
+         printf(" %s",i,ptr[i].y);
+                ^~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:22:05 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:26:16 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:26:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&ptr[i].y);
+          ~^  ~~~~~~~~~
+../src/aaa.c:34:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+         printf(" %s",i,(ptr+i)->y);
+                  ~^
+                  %d
+../src/aaa.c:34:16: warning: too many arguments for format [-Wformat-extra-args]
+         printf(" %s",i,(ptr+i)->y);
+                ^~~~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:26:21 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:28:53 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:28:57 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:20 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:36:29: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
+   printf("\n %-6d %-10s %6.2f", (ptr+i)->empno, (ptr+i)->name);
+                         ~~~~^
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:32:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:55 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:35:00 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:36:01 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:36:10 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+18:43:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:10:9: warning: unknown escape sequence: '\040'
+  printf(" \n \'hellow'\ ");
+         ^~~~~~~~~~~~~~~~~
+../src/aaa.c:11:6: warning: unused variable ‘ans’ [-Wunused-variable]
+  int ans=10;
+      ^~~
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+18:43:28 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:20:44 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n int %%d %d %d to %d", sizeof(int), INT_MIN, INT_MAX);
+                     ~^
+                     %ld
+../src/aaa.c:13:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10=%d", sizeof(10));
+                        ~^
+                        %ld
+../src/aaa.c:14:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10=%d", sizeof(10.10));
+                           ~^
+                           %ld
+../src/aaa.c:15:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10f=%d", sizeof(10.10f));
+                            ~^
+                            %ld
+../src/aaa.c:16:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10F=%d", sizeof(10.10F));
+                            ~^
+                            %ld
+../src/aaa.c:17:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof(ch));
+                        ~^
+                        %ld
+../src/aaa.c:18:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof('A'));
+                        ~^
+                        %ld
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:20:53 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:24:26 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n int %%d %d %d to %d", sizeof(int), INT_MIN, INT_MAX);
+                     ~^
+                     %ld
+../src/aaa.c:13:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10=%d", sizeof(10));
+                        ~^
+                        %ld
+../src/aaa.c:14:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10=%d", sizeof(10.10));
+                           ~^
+                           %ld
+../src/aaa.c:15:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10f=%d", sizeof(10.10f));
+                            ~^
+                            %ld
+../src/aaa.c:16:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10F=%d", sizeof(10.10F));
+                            ~^
+                            %ld
+../src/aaa.c:17:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof(ch));
+                        ~^
+                        %ld
+../src/aaa.c:18:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof('A'));
+                        ~^
+                        %ld
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:24:29 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:28:29 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n int %%d %d %d to %d", sizeof(int), INT_MIN, INT_MAX);
+                     ~^
+                     %ld
+../src/aaa.c:13:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10=%d", sizeof(10));
+                        ~^
+                        %ld
+../src/aaa.c:14:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10=%d", sizeof(10.10));
+                           ~^
+                           %ld
+../src/aaa.c:15:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10f=%d", sizeof(10.10f));
+                            ~^
+                            %ld
+../src/aaa.c:16:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10F=%d", sizeof(10.10F));
+                            ~^
+                            %ld
+../src/aaa.c:17:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof(ch));
+                        ~^
+                        %ld
+../src/aaa.c:18:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof('A'));
+                        ~^
+                        %ld
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:28:33 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:08 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n int %%d %d %d to %d", sizeof(int), INT_MIN, INT_MAX);
+                     ~^
+                     %ld
+../src/aaa.c:13:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10=%d", sizeof(10));
+                        ~^
+                        %ld
+../src/aaa.c:14:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10=%d", sizeof(10.10));
+                           ~^
+                           %ld
+../src/aaa.c:15:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10f=%d", sizeof(10.10f));
+                            ~^
+                            %ld
+../src/aaa.c:16:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of 10.10F=%d", sizeof(10.10F));
+                            ~^
+                            %ld
+../src/aaa.c:17:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof(ch));
+                        ~^
+                        %ld
+../src/aaa.c:18:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of ch=%d", sizeof('A'));
+                        ~^
+                        %ld
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:29:16 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:36:31 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:36:37 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:15 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:04 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:45:23 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+        ^
+../src/aaa.c:9:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+             ^
+../src/aaa.c:9:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+                  ^
+../src/aaa.c:14:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else;
+  ^~~~
+../src/aaa.c:15:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  {
+  ^
+../src/aaa.c:17:2: error: expected declaration or statement at end of input
+  }
+  ^
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+make: *** [src/aaa.o] Error 1
+19:45:25 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+        ^
+../src/aaa.c:9:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+src/subdir.mk:18: recipe for target 'src/aaa.o' failed
+  if(no1, no2, no1, no2)
+             ^
+../src/aaa.c:9:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+                  ^
+../src/aaa.c:14:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else;
+  ^~~~
+../src/aaa.c:15:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  {
+  ^
+../src/aaa.c:17:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/aaa.o] Error 1
+19:45:41 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+        ^
+../src/aaa.c:9:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+             ^
+../src/aaa.c:9:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+                  ^
+../src/aaa.c:14:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else;
+  ^~~~
+../src/aaa.c:15:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  {
+  ^
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:45:43 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:47:39 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:9:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+        ^
+../src/aaa.c:9:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+             ^
+../src/aaa.c:9:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  if(no1, no2, no1, no2)
+                  ^
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:47:41 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:59 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+../src/aaa.c: In function ‘main’:
+../src/aaa.c:43:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of enum color =%d", sizeof(c));
+                                 ~^
+                                 %ld
+../src/aaa.c:44:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("\n size of enum color =%d", sizeof(enum color));
+                                 ~^
+                                 %ld
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+19:57:03 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+00:54:04 **** Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+00:54:09 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+00:55:17 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+00:55:27 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+00:56:17 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+00:57:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+00:57:16 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+00:59:36 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+00:59:38 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+01:01:06 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+Building file: ../src/aaa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aaa.d" -MT"src/aaa.o" -o "src/aaa.o" "../src/aaa.c"
+Finished building: ../src/aaa.c
+ 
+Building target: aaa
+Invoking: GCC C Linker
+gcc  -o "aaa"  ./src/aaa.o   
+Finished building target: aaa
+ 
+01:01:08 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+01:01:35 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:01:12 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:01:13 **** Build of configuration Debug for project akhi ****
+make all 
+Building file: ../src/akhi.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/akhi.d" -MT"src/akhi.o" -o "src/akhi.o" "../src/akhi.c"
+../src/akhi.c: In function ‘main’:
+../src/akhi.c:17:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+  gets(a);
+  ^~~~
+  fgets
+Finished building: ../src/akhi.c
+ 
+Building target: akhi
+Invoking: GCC C Linker
+gcc  -o "akhi"  ./src/akhi.o   
+./src/akhi.o: In function `main':
+/home/sunbeam/DACASSIGN/cprograms/akhi/Debug/../src/akhi.c:17: warning: the `gets' function is dangerous and should not be used.
+Finished building target: akhi
+ 
+13:01:21 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:01:57 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:01:58 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:02:02 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:03:29 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:03:57 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:04:35 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:04:35 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:04:39 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:05:04 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:05:30 **** Incremental Build of configuration Debug for project aaa ****
+make all 
+make: Nothing to be done for 'all'.
+13:05:30 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+Building file: ../src/akhi.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/akhi.d" -MT"src/akhi.o" -o "src/akhi.o" "../src/akhi.c"
+../src/akhi.c: In function ‘main’:
+../src/akhi.c:17:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+  gets(a);
+  ^~~~
+  fgets
+Finished building: ../src/akhi.c
+ 
+Building target: akhi
+Invoking: GCC C Linker
+gcc  -o "akhi"  ./src/akhi.o   
+./src/akhi.o: In function `main':
+/home/sunbeam/DACASSIGN/cprograms/akhi/Debug/../src/akhi.c:17: warning: the `gets' function is dangerous and should not be used.
+Finished building target: akhi
+ 
+13:05:34 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:05:48 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:06:16 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:06:19 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:02 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:44 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:08:10 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:08:18 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:09:01 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:09:04 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
+13:09:54 **** Incremental Build of configuration Debug for project akhi ****
+make all 
+make: Nothing to be done for 'all'.
